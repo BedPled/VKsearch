@@ -123,7 +123,16 @@ public class Main {
         parsIndex("requests.txt");
         System.out.println();
 
-        search("if");
+        search("if s");
+        System.out.println("------------------------------------");
+        search("Peter i");
+        System.out.println("------------------------------------");
+        search("p a");
+
+        System.out.println("------------------------------------");
+        search("scream you");
+        System.out.println("------------------------------------");
+        search("you scream");
 
 
     }
